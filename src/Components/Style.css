@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+}
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #4e4747;
+  color: #f5f1f1;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  padding: 2rem;
+  border-radius: 8px;
+
+  background-color: #181818;
+  color: #f5f1f1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+    background: linear-gradient(to right, #ff6f61, #ffb88c);
+            color: white;
+            border: none;
+            padding: 12px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: transform 0.2s;
+  /* padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; */
+}
+
+button:hover {
+  /*background-color: #45a049;*/
+  animation: pulse 0.6s infinite;
+}
+
+.display-data {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.display-data ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.display-data li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #608289;
+  color: #f5f1f1;
+}
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+    padding: 1rem;
+    width: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #4e4747;
+    color: #f5f1f1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.header h1 {
+  font-size: 2rem;
+  color: #f5f1f1;
+  
+}
